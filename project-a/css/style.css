@@ -36,6 +36,18 @@ body {
     color: gold;
 }
 
+yellow {
+    color: gold;
+}
+
+.pink {
+    color: pink
+}
+
+.roseo {
+    color: rgb(206, 11, 154)
+}
+
 
 .two-columns {
     display: flex;
