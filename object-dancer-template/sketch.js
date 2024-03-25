@@ -59,16 +59,16 @@ class ArielDancer {
     strokeWeight(10)
     stroke(255)
     line(0, 0, 90, -90)
-    pop()
+    pop()//tail
 
     fill(255)
     noStroke()
-    circle(0, 10, this.dia * 4)
+    circle(0, 10, this.dia * 4)//face
     triangle(-50, -25, 0, -25, -40, -100)
     triangle(50, -25, 0, -25, 40, -100)
     fill(250, 200, 200)
     triangle(-40, -30, -25, -40, -35, -80)
-    triangle(40, -30, 25, -40, 35, -80)
+    triangle(40, -30, 25, -40, 35, -80)//ears
 
     push()
     rotate(radians(this.angle));
@@ -78,11 +78,11 @@ class ArielDancer {
     ellipse(-20, 50, this.dia * 0.5, this.dia * 2.3)
     ellipse(20, 50, this.dia * 0.5, this.dia * 2.3)
     ellipse(40, 50, this.dia * 0.6, this.dia * 2.5)
-    pop()
+    pop()//legs
 
 
     fill(0)
-    ellipse(0, 0, this.dia * 4, this.dia * 1.5)
+    ellipse(0, 0, this.dia * 4, this.dia * 1.5)//face mask
 
     fill(255)
     ellipse(-20, 0, this.dia, this.dia * 0.80);
@@ -90,10 +90,10 @@ class ArielDancer {
     fill(0)
     noStroke();
     ellipse(-20, 0, this.dia * 0.32, this.dia);
-    ellipse(20, 0, this.dia * 0.32, this.dia);
+    ellipse(20, 0, this.dia * 0.32, this.dia);//eyes
 
     fill(250, 200, 200)
-    circle(0, 0, this.dia * 0.3)
+    circle(0, 0, this.dia * 0.3)//nose
 
 
 
