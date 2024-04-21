@@ -1,0 +1,67 @@
+html,
+body {
+  height: 100%;
+  background-color: rgb(247, 220, 225);
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+#p5-canvas-container {
+  background-color: azure;
+  display: flex;
+  width: 100%;
+  max-width: 800px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+
+  flex-direction: row;
+}
+
+@media (max-width: 800px) {
+  #p5-canvas-container {
+    flex-direction: column;
+    max-width: 500px;
+  }
+
+  .intro {
+    order: 2;
+    background-color: azure;
+    min-height: 200px;
+  }
+
+  #canvaContainer {
+    height: 400px;
+    margin: 0;
+    order: 1;
+  }
+
+  .credits {
+    order: 3;
+    background-color: azure;
+    min-height: 200px;
+  }
+}
+
+.title {
+  width: 100%;
+  position: relative;
+  background: rgb(247, 220, 225);
+}
+
+h1 {
+  color: black;
+  font-size: 50px;
+  font-family: "Jacquard 24", system-ui;
+}
