@@ -17,7 +17,7 @@ p {
 }
 
 #p5-canvas-container {
-  background-color: azure;
+  background-color:  rgb(208, 240, 162);
   display: flex;
   width: 100%;
   max-width: 800px;
