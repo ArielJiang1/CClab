@@ -1,30 +1,21 @@
 html,
 body {
-  height: 100%;
-  background-color: rgb(247, 220, 225);
-}
-
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
   margin: 0;
   padding: 0;
+  background-color: rgb(249, 217, 222)
+}
+
+canvas {
+  display: block;
+
 }
 
 #p5-canvas-container {
-  background-color:  rgb(208, 240, 162);
+  background-color: rgb(227, 247, 209);
   display: flex;
   width: 100%;
-  max-width: 800px;
-  height: 400px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 0;
+  max-width: 1000px;
+  margin: auto;
 
   flex-direction: row;
 }
@@ -32,36 +23,18 @@ p {
 @media (max-width: 800px) {
   #p5-canvas-container {
     flex-direction: column;
-    max-width: 500px;
+    max-width: 800px;
   }
 
   .intro {
     order: 2;
-    background-color: azure;
-    min-height: 200px;
   }
 
-  #canvaContainer {
-    height: 400px;
-    margin: 0;
-    order: 1;
+  #p5-canvas-container {
+    order: 1
   }
 
   .credits {
-    order: 3;
-    background-color: azure;
-    min-height: 200px;
+    order: 3
   }
-}
-
-.title {
-  width: 100%;
-  position: relative;
-  background: rgb(247, 220, 225);
-}
-
-h1 {
-  color: black;
-  font-size: 50px;
-  font-family: "Jacquard 24", system-ui;
 }
