@@ -6,8 +6,8 @@ let scaleAdj = 0;
 
 
 function setup() {
-  createCanvas(800, 500);
-  // background(0)
+  let canvas = createCanvas(800, 500);
+  canvas.parent("canvaContainer");
 
   x = 250;
   y = 200;
