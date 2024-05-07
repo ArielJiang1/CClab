@@ -29,8 +29,8 @@ let imgCount = 0;
 
 let sounds = [];
 let soundFilenames = [
-    "sound/waterfall.mp3",
-    "sound/rain.mp3",
+    "sound/waterfall.wav",
+    "sound/rain.wav",
 ];
 
 let soundCount = -1;
