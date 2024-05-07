@@ -1,0 +1,133 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: ivory;
+  font-family: "Sofia", sans-serif;
+}
+
+.title-container1 {
+  color: rgb(111, 175, 143);
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+  /* width: 80%;
+  transform: translate(10%, 10%);
+  text-align: center; */
+}
+
+.title-container1 h1 {
+  text-align: center;
+  font-size: 4rem;
+}
+
+.title-container1 h6 {
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(65, 196, 157);
+  margin: 0 0 3.0rem 0;
+  /* t r b l */
+}
+
+.title-container1 p {
+  text-align: center;
+  color: rgb(84, 188, 153);
+  font-size: 1.5rem;
+}
+
+.title-container1 a {
+
+  text-align: center;
+  font-size: 1.5rem;
+  text-decoration: none;
+  margin: 0 1.0rem;
+  /* tb rl */
+  color: indigo;
+}
+
+.title-container1 a:hover {
+  color: pink;
+}
+
+
+.title-containertree {
+  color: rgb(114, 201, 158);
+  width: 80%;
+  transform: translate(10%, 10%);
+  text-align: center;
+}
+
+.title-containerflower {
+  color: rgb(224, 166, 191);
+  width: 80%;
+  transform: translate(10%, 10%);
+  text-align: center;
+}
+
+.title-containerrain {
+  color: rgb(114, 192, 201);
+  width: 80%;
+  transform: translate(10%, 10%);
+  text-align: center;
+}
+
+.h1 {
+  text-align: center;
+}
+
+canvas {
+  display: block;
+}
+
+#p5-canvas-container {
+  background-color: ivory;
+  display: flex;
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+
+  flex-direction: column;
+}
+
+#p5-canvas-background {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  /* z-index: 1; */
+}
+
+.centered1 {
+  top: 80%;
+  width: 80%;
+  transform: translate(10%, 10%);
+  text-align: center;
+  font-size: 130%;
+}
+
+.centered {
+  top: 80%;
+  width: 80%;
+  transform: translate(10%, 10%);
+  text-align: center;
+}
+
+
+@media (max-width: 800px) {
+  #p5-canvas-container {
+    flex-direction: column;
+    max-width: 800px;
+  }
+
+  .intro {
+    order: 2;
+  }
+
+  #p5-canvas-container {
+    order: 1
+  }
+
+}
